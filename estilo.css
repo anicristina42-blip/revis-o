@@ -1,0 +1,80 @@
+
+/* Estilo geral da página */
+body {
+    background-color: #d9f0ff;
+    color: #002b49;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Títulos */
+h1, h2 {
+    color: #002b49;
+}
+
+/* Cartão principal */
+.cartao {
+    background-color: #d9f0ff;
+    border: 2px solid #002b49;
+    border-radius: 10px;
+    padding: 25px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Imagem */
+.foto-destaque {
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid #002b49;
+    border-radius: 10px;
+}
+
+/* Legendas e rótulos */
+legend, label {
+    color: #002b49;
+}
+
+/* Campos de digitação */
+input[type="text"],
+input[type="email"] {
+    color: #002b49;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    border: 2px solid #002b49;
+    padding: 8px;
+}
+
+/* Grupos do formulário */
+fieldset {
+    border: 2px solid #002b49;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* Botão */
+button {
+    background-color: #002b49;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Foco do teclado */
+input:focus,
+button:focus {
+    outline: 3px solid #ff6600;
+    outline-offset: 3px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    color: #002b49;
+}
